@@ -269,7 +269,7 @@ const ExternalPlugin = props => {
           (function() {
             var hm = document.createElement("script");
             hm.src = "https://hm.baidu.com/hm.js?${ANALYTICS_BAIDU_ID}";
-            var s = document.getElementsByTagName("script")[0];
+            var s = document.getElementsByTagName("script")[0]; 
             s.parentNode.insertBefore(hm, s);
           })();
           `
@@ -332,8 +332,6 @@ const ExternalPlugin = props => {
           }}
         />
       )}
-      {/* Umami统计 */}
-      <script defer src="http://154.38.234.30:3000/script.js" data-website-id="94a9331b-75e9-4b7e-b009-98581d396bf7"></script>
     </>
   )
 }
