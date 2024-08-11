@@ -287,6 +287,9 @@ const LayoutSlug = props => {
             )}
             {post?.title}
           </h1>
+          <div className="mr-2 mb-4 md:ml-0">
+            {post?.publishDay}
+          </div>
 
           {/* Notion文章主体 */}
           {post && (
