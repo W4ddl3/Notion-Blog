@@ -45,6 +45,7 @@ export const MenuItem = ({ link }) => {
         ) : (
           <Link
             href={url}
+            target="_blank"
             className='dark:text-neutral-400 dark:hover:text-white font-bold w-full display-block'>
             <i
               className={`text-base ${link?.icon ? link?.icon : isAnchor ? 'fas fa-hashtag' : ''} mr-1`}
