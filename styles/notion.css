@@ -873,22 +873,6 @@ code[class*='language-'] {
   text-overflow: ellipsis;
 }
 
-.notion-bookmark-image {
-  flex: 1 1 180px;
-  position: relative;
-}
-
-.notion-bookmark-image img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-
-.notion-column .notion-bookmark-image {
-  display: none;
-}
-
 .notion-spacer {
   width: calc(min(32px, 4vw));
 }
