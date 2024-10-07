@@ -17,7 +17,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_URL:
     'https://docs.b3n.fun/quick-start', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: '控制面板', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://api.b3n.fun/token', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://api.b3n.fun/login', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   STARTER_HERO_PREVIEW_IMAGE: '/show.webp', // 产品预览图 ，默认读取public目录下图片
