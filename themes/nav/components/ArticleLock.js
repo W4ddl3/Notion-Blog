@@ -31,7 +31,7 @@ export const ArticleLock = props => {
 
   return <div id='container' className='w-full flex justify-center items-center h-96 '>
     <div className='text-center space-y-3'>
-      <div className='font-bold'><a href="https://bu.dusays.com/2024/08/17/66c00de653d2b.webp" target="_blank" rel="noopener noreferrer">关注 OopLab 公众号 ↗️</a>，发送 校名 ，获取访问密码</div>
+      <div className='font-bold'><a href="https://bu.dusays.com/2024/08/17/66c00de653d2b.webp" target="_blank" rel="noopener noreferrer">关注 OopLab 公众号 ↗️</a>，发送“道可道非常道”</div>
       <div className='flex mx-4'>
         <input id="password" type='password'
             onKeyDown={(e) => {
